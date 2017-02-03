@@ -1,0 +1,115 @@
+%% The MIT License (MIT)
+%%
+%% Copyright (c) 2015 Daniil Belyakov
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
+
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{mcdowellcv}
+
+% For mathematical symbols
+\usepackage{amsmath}
+
+% Set applicant's personal data for header
+\name{Nathaniel Comeau}
+\address{1856 Laval Ave \linebreak Victoria BC V8N1N2}
+\contacts{(506) 898-1405 \linebreak ncomeau@uvic.ca}
+
+\begin{document}
+
+	% Print the header
+	\makeheader
+	
+	% Print the content
+	\begin{cvsection}{Employment}
+		\begin{cvsubsection}{Research Chemist}{SeaStar Chemicals}{May 2016 -- January 2017}			
+			\begin{itemize}
+				\item Automated simulation screening process to improve processing times by 300\%.
+				\item Discovered two new materials for Atomic Layer Deposition Processes.
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Outreach Assistant}{University of Victoria}{Dec 2016 -- May 2017}	
+			\begin{itemize}
+				\item Hosted observatory open houses.
+				\item Creating a library of promotional images with UVic's 32" telescope.
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Research Assistant}{University of Victoria}{May 2016 -- January 2017}		
+			\begin{itemize}
+				\item Assisted in parametrizing the dielectric response of Titanium Dioxide nano-composites.
+				\item Implemented bash shell scripts to submit parallel simulations to ComputeCanada Unix clusters.
+                \item Processed simulation results on RHEL/CentOS workstations.
+                \item Improved precision of matlab signal processing algorithm by 15\%.
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Barista, Barista Trainer}{Starbucks Coffee}{Fall 2015 -- Fall 2016}		
+			\begin{itemize}
+				\item Promoted to Barista Trainer to train new staff.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Education}
+		\begin{cvsubsection}{Victoria, BC}{University of Victoria}{Fall 2015 -- Spring 2019}
+			\begin{itemize}
+				\item B.Sc. in Physics \& Computer Science with Minor in Chemistry. In progress.  GPA: 3.5.
+				\item Undergraduate Coursework: Fundamentals Chemistry, Physics, Biology, Astronomy. Calc I-IV. Classical and Quantum Mechanics, Thermodynamics, Matrix and Linear Algebra.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Technical \& Volunteer Experience}
+		\begin{cvsubsection}{Projects}{}{github.com/Nat1405}
+			\begin{itemize}
+				\item \textbf{Avogadro Open Source Molecular Editor} (2017). Free 3D molecular editor where users can draw and optimize molecules and prepare input for computational chemistry programs.  C++, Python.
+				\item \textbf{Band Website, Tortue} (2016). Begun implementing a website for the band Tortue. HTML5, CSS, Django
+			\end{itemize}
+		\end{cvsubsection}
+        \begin{cvsubsection}{Volunteering}{}{web.uvic.ca/~ncomeau}
+        	\begin{itemize}
+            	\item \textbf{Electronics Tutor} (2016--2017). Taught four students soldering and fundamentals of analogue systems. Implemented autonomous Quadcopter flight using Arduino Uno, Raspberry Pi and Swift.
+                \item \textbf{Reading Tutor} (2015). Guided one 2\textsuperscript{nd} grade student in reading for five months.
+                \item \textbf{Pilot, Air Cadets} (2014--2015). Brought 217 youth flying for their first flights in a Glider.
+            \end{itemize}
+        
+        \end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Additional Experience and Awards}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item \textbf{NSERC Experience Award} (Summer 2016): Simulated properties of gas-phase Atomic Layer Deposition Precursors.
+				\item Scholarships, Canadian Air Cadets (Summer 2013/2014): Private Pilot's License and International Exchange to Australia. 			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Languages and Technologies}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item C; C++ (experience); Java; Python; Swift (experience); Matlab; HTML5; Bash; \LaTeX. 
+				\item Debian \& RedHat/CentOS Linux; WestGrid \& ComputeCanada Clusters; Eclipse; XCode.
+                \item Gaussian 09; Siesta ; Orca; Quantum Espresso.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+\end{document}
